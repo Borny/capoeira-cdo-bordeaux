@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capoeira CDO Bordeaux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="banner" id="banner">
+      <p class="banner__text">
+        <strong>Nouveau site 2026-2027 en construction</strong>
+        <span>Toutes les infos essentielles sont ici</span>
+      </p>
+      <button class="banner__close" id="bannerClose" aria-label="Fermer la bannière">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L17 17M17 1L1 17" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <header class="header">
+      <div class="header__inner">
+        <a href="#top" class="header__logo">
+          <img src="public/logo-capoeira-CDO-bordeaux-black.png" alt="Logo Capoeira CDO Bordeaux" />
+        </a>
+
+        <div class="header__social">
+          <a
+            href="https://www.instagram.com/capoeiracdobordeaux/"
+            class="header__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram Capoeira CDO Bordeaux"
+          >
+            <img src="public/instagram.svg" alt="" />
+          </a>
+          <a
+            href="https://www.facebook.com/capoeiraCDObordeaux/directory_contact_info"
+            class="header__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook Capoeira CDO Bordeaux"
+          >
+            <img src="public/facebook.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <h1 class="hero__title">Capoeira</h1>
+        <p class="hero__subtitle">
+          + de 20 ans à faire vivre la capoeira autour de Bordeaux, entre
+          <span class="hero__highlight">mouvement</span>,
+          <span class="hero__highlight">culture</span>,
+          <span class="hero__highlight">transmission</span>, et
+          <span class="hero__highlight">énergie</span> collective.
+        </p>
+        <a href="#antennes" class="hero__cta">
+          <svg viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 7 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+          </svg>
+          Trouver mon cours
+        </a>
+      </section>
+
+      <section class="antennes" id="antennes">
+        <div class="antennes__intro">
+          <div class="antennes__intro-left">
+            <p class="antennes__eyebrow">La Capoeira près de chez vous</p>
+            <h2 class="antennes__title">Nos antennes</h2>
+            <span class="antennes__accent"></span>
+          </div>
+          <div class="antennes__intro-right">
+            <p class="antennes__description">
+              Retrouvez les cours de
+              <strong class="antennes__brand">Capoeira CDO Bordeaux</strong>
+              dans plusieurs communes de la métropole et du littoral girondin.
+            </p>
+          </div>
+        </div>
+        <div class="antennes__grid" id="antennesGrid"></div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <p>&copy; Capoeira CDO Bordeaux - Tous droits réservés</p>
+        <div class="footer__social">
+          <a
+            href="https://www.instagram.com/capoeiracdobordeaux/"
+            class="footer__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram Capoeira CDO Bordeaux"
+          >
+            <img src="public/instagram.svg" alt="" />
+          </a>
+          <a
+            href="https://www.facebook.com/capoeiraCDObordeaux/directory_contact_info"
+            class="footer__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook Capoeira CDO Bordeaux"
+          >
+            <img src="public/facebook.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
