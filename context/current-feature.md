@@ -1,30 +1,26 @@
 # Current Feature
 
-Landing page (vanilla JS)
+Événements section
 
 ## Status
 
 <!-- Not Started|In Progress|Completed -->
 
-Completed
+In Progress
 
 ## Goals
 
-Ship a first version of the new site based on @context/screenshots/CDO-WebSite-dev.pdf and the style guide @context/screenshots/CDO-WebSite-Charte.pdf, in plain HTML/CSS/JS.
+Add the "Événements" section from @context/screenshots/CDO-WebSite-dev.pdf, reduced to the festival banner for now.
 
-- Header: logo, Instagram + Facebook icons, nav (Accueil, Localisation)
-- Hero: "CAPOEIRA / É MINHA VIDA" (Big Shoulders Stencil), intro text, "Trouver mon cours" button to the antennes, "Enseignement officiel Cordão de Ouro", hero photo
-- Nos antennes: horizontal carousel of 6 cards (photo, name, teacher). "Cours et infos →" expands the card inline to show kids / adults schedules and a phone link
-- Footer: logo, tagline, socials, © year
-- Fonts: Big Shoulders Stencil, Barlow Condensed, Barlow, Inter
-- Responsive, smooth scroll
+- Section heading "Événements" with a short "coming soon" text
+- Festival banner: festival photo with "Festival / Berimbau Me Leva / 2027" overlay and a "Bientôt disponible" label instead of the "En savoir plus" button
+- "Festival" link in the header nav pointing to the section
+- Responsive
 
 ## Notes
 
-- Out of scope for now: Événements, Festival banner, Capoeira Kids badge, "Nouveau site en construction" banner
-- YouTube, WhatsApp, Festival, À propos, Contact and legal links are hidden until URLs/pages exist
-- Images extracted from the mockup PDF into `public/images/`. Card photos are low resolution (Le Porge especially) and should be replaced with real photos. Lormont uses an AI-generated photo (Pont d'Aquitaine)
-- Antenne cards and schedules are static HTML in `index.html`; `src/main.js` only handles the expand toggle and carousel arrows
+- Out of scope for now: event cards carousel (dates, "En savoir +"), Berimbau Me Leva logo (vector in the mockup, not extractable as an image)
+- Photo extracted from the mockup PDF into `public/images/festival-berimbau-me-leva.jpg`
 
 ## History
 
