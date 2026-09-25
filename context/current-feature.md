@@ -6,7 +6,7 @@ Landing page (vanilla JS)
 
 <!-- Not Started|In Progress|Completed -->
 
-In Progress
+Completed
 
 ## Goals
 
@@ -23,7 +23,7 @@ Ship a first version of the new site based on @context/screenshots/CDO-WebSite-d
 
 - Out of scope for now: Événements, Festival banner, Capoeira Kids badge, "Nouveau site en construction" banner
 - YouTube, WhatsApp, Festival, À propos, Contact and legal links are hidden until URLs/pages exist
-- Images extracted from the mockup PDF into `public/images/`. Card photos are low resolution (Le Porge especially) and should be replaced with real photos. Lormont has no photo yet (teal placeholder)
+- Images extracted from the mockup PDF into `public/images/`. Card photos are low resolution (Le Porge especially) and should be replaced with real photos. Lormont uses an AI-generated photo (Pont d'Aquitaine)
 - Antenne cards and schedules are static HTML in `index.html`; `src/main.js` only handles the expand toggle and carousel arrows
 
 ## History
@@ -31,3 +31,4 @@ Ship a first version of the new site based on @context/screenshots/CDO-WebSite-d
 <!-- Keep this updated. Earliest to latest -->
 
 - Project setup and boilerplate cleanup
+- **Landing page (vanilla JS)**: hero, antennes carousel with expandable schedules, sticky header, footer
