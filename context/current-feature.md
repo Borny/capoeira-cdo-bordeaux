@@ -6,7 +6,7 @@
 
 <!-- Not Started|In Progress|Completed -->
 
-In Progress
+Completed
 
 ## Goals
 
@@ -28,3 +28,4 @@ Add the "Événements" section from @context/screenshots/CDO-WebSite-dev.pdf, re
 
 - Project setup and boilerplate cleanup
 - **Landing page (vanilla JS)**: hero, antennes carousel with expandable schedules, sticky header, footer
+- **Événements section**: festival banner with "Bientôt disponible", Festival nav link
